@@ -35,6 +35,7 @@ function Projects() {
               title="SI Capstone"
               description="This is my another one of my project for the Information System major in ITS. This app is a profile system made for a law firm based in Jakarta. Integrating frameworks like next.js and tools like javascript."
               ghLink="https://github.com/Ifanr19/capstone"
+              demoLink="https://capstone-tau-eight.vercel.app/"
             />
           </Col>
 
