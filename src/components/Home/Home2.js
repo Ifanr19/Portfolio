@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               I am always striving to learn about something new. 
               <br />
-              <br />I am an Information System student thats intermediate developer with languages like 
+              <br />I am an Information System student thats an intermediate developer with languages like 
               <i>
                 <b className="purple"> Java, Javascript and python. </b>
               </i>
