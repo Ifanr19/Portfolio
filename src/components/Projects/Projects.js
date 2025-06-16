@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import capstone from "../../Assets/Projects/Capstone.png";
+import pso from "../../Assets/Projects/pso.png";
+
 
 function Projects() {
   return (
@@ -18,12 +15,12 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={pso}
               isBlog={false}
               title="Devops"
               description="This is my Final group project on my devops course. This app have the intention of applying the CI/CD pipeline into a github repo for seamless deployment. The project was hosted live using Amazon Web Service (AWS)."
@@ -33,7 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={capstone}
               isBlog={false}
               title="SI Capstone"
               description="This is my another one of my project for the Information System major in ITS. This app is a profile system made for a law firm based in Jakarta. Integrating frameworks like next.js and tools like javascript."
