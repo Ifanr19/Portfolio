@@ -32,7 +32,7 @@ function Home2() {
                 <b className="purple">Frontend development </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Devops.
+                  UI/UX.
                 </b>
               </i>
               <br />
